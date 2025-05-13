@@ -1,0 +1,102 @@
+/* Общие стили */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Контейнер для центрации контента */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Шапка сайта */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2em;
+}
+
+header nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+/* Главный блок */
+.hero {
+    background-color: #007bff;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    background-color: #fff;
+    color: #007bff;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero .btn:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+/* Блоки о нас и контакты */
+.about, .contact {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about h2, .contact h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.about p, .contact p {
+    font-size: 1.2em;
+}
+
+/* Подвал */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
